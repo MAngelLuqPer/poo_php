@@ -7,4 +7,6 @@
 
 <ol>
     <li><?= $c1->getNombre()?></li>
+    <li><?= $c2->getNombre()?></li>
+    
 </ol>
