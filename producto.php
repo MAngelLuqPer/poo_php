@@ -11,8 +11,12 @@ abstract class Producto{
     public function getNombre(){
         return $this->nombre;
     }
-    public function getprecio(){
+    public function getPrecio(){
         return $this->precio;
     }
+
+    abstract public function calcularPrecioFinal();
+
+}
 
 ?>
