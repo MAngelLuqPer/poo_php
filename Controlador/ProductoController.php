@@ -15,5 +15,4 @@ public function ejecuta(){
     //Cargar la lista y guarda los productos
     require_once("Vista/Main.php");
 }
-
-?>
+}
